@@ -26,7 +26,7 @@ body {
   grid-column: 3/5;
   margin-top: 3.6rem;
   margin-bottom: 3.6rem;
-  background: rgba(187, 119, 16, 0.904);
+  background: #fb5;
 }
 
 .menu ul {
