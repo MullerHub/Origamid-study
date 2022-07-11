@@ -1,0 +1,23 @@
+{
+  "name": "origamid-my-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MullerHub/Origamid-study.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MullerHub/Origamid-study/issues"
+  },
+  "homepage": "https://github.com/MullerHub/Origamid-study#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
