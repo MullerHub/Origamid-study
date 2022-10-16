@@ -15,4 +15,4 @@ const fiat = {
 
 const velocidadeFiat = carro.acelerar.bind(fiat)
 
-console.log(acelerarHonda(300, 20))
+console.log(velocidadeFiat(300, 20))
