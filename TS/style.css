@@ -57,9 +57,8 @@ h1 {
 #slide-thumb > span {
   flex: 1;
   display: block;
-  height: 0.25rem;
-  background-color: rgba(255, 255, 255, 0.2);
-  background-color: red;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.2);
   margin: 5px;
   border-radius: 4px;
   overflow: hidden;
@@ -69,10 +68,14 @@ h1 {
 #slide-thumb .thumb-item.active {
   display: block;
   height: inherit;
-  background-color: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.9);
   border-radius: 4px;
   transform: translateX(-100%);
   animation: thumb forwards linear running;
+}
+
+#slide-thumb .thumb-item.paused {
+  animation-play-state: paused;
 }
 
 @keyframes thumb {
